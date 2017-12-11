@@ -1,8 +1,7 @@
 package com.sort;
 
 public class InsertSort {
-    public static void main(String[] args) {
-        int[] a = {22, 18, 36, 47, 55, 88, 12, 8, 39, 66, 75, 0};
+    public void sort(int[] a) {
         System.out.println("排序之前：");
         for (int i = 0; i < a.length; i++) {
             System.out.print(a[i] + " ");
@@ -27,5 +26,11 @@ public class InsertSort {
         for (int i = 0; i < a.length; i++) {
             System.out.print(a[i] + " ");
         }
+    }
+
+    public static void main(String[] args) {
+        InsertSort insertSort = new InsertSort();
+        int[] a = {22, 18, 36, 47, 55, 88, 12, 8, 39, 66, 75, 0};
+        insertSort.sort(a);
     }
 }
