@@ -8,6 +8,7 @@ public class BinaryInsertSort {
             System.out.print(a[i] + " ");
         }
         System.out.println();
+        System.out.println("========================================");
         int temp;
         for (int i = 0; i < a.length; i++) {
             temp = a[i];
