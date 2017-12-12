@@ -8,6 +8,7 @@ public class InsertSort {
             System.out.print(a[i] + " ");
         }
         System.out.println();
+        System.out.println("=================================");
         //开始直接插入排序
         int temp;
         for (int i = 1; i < a.length; i++) {
