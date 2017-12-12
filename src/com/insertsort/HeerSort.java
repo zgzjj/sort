@@ -8,6 +8,7 @@ public class HeerSort {
             System.out.print(a[i] + " ");
         }
         System.out.println();
+        System.out.println("============================");
         int d = a.length / 2;//默认增量
         int temp;
         while (true) {
