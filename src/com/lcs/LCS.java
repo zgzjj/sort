@@ -1,4 +1,5 @@
 package com.lcs;
+
 //动态规划算法求最长子序列
 public class LCS {
     public int findLCS(String A, String B) {
@@ -34,9 +35,9 @@ public class LCS {
                 }
             }
         }
-        for (int i=0;i<n;i++){
-            for(int j=0;j<m;j++){
-                System.out.print(dp[i][j]+" ");
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                System.out.print(dp[i][j] + " ");
             }
             System.out.println();
         }
